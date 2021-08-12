@@ -7,6 +7,7 @@
 
 <script>
 	export default {
+		// name:'demo',
 		data() {
 			return {
 				obj: {
@@ -18,7 +19,7 @@
 		},
 		methods: {
 			addArr() {
-				// console.log(this.obj.item.arr)
+				console.log(this)
 				this.obj.item.arr.push(this.obj.item.arr[this.obj.item.arr.length-1]+1)
 				// this.obj.item.arr.push(arr[arr.length-1]+1)
 			}
